@@ -211,3 +211,13 @@ dex_import {
 	jars: ["proprietary/product/framework/dpmapi.jar"],
 	product_specific: true,
 }
+
+// DRM-Hardware
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.2-service.widevine",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.2-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
