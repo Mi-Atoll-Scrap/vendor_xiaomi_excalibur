@@ -221,3 +221,18 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
+
+// Factory
+dex_import {
+	name: "vendor.qti.hardware.factory-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/product/framework/vendor.qti.hardware.factory-V1.0-java.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.factory-V1.1-java",
+	owner: "xiaomi",
+	jars: ["proprietary/product/framework/vendor.qti.hardware.factory-V1.1-java.jar"],
+	product_specific: true,
+}
