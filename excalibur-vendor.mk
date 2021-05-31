@@ -88,3 +88,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm-V1.0-java
+
+# Atrace
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/excalibur/proprietary/vendor/bin/hw/android.hardware.atrace@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.atrace@1.0-service \
+    vendor/xiaomi/excalibur/proprietary/vendor/etc/init/android.hardware.atrace@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.atrace@1.0-service.rc
+
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service
