@@ -255,3 +255,34 @@ dex_import {
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
 	soc_specific: true,
 }
+
+// GPS
+dex_import {
+	name: "com.qti.location.sdk",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/com.qti.location.sdk.jar"],
+}
+
+dex_import {
+	name: "izat.xt.srv",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/izat.xt.srv.jar"],
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.gnss@2.0-service-qti",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.gnss@3.0-service",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
