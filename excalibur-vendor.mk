@@ -2213,3 +2213,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/thermal.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.atoll.so \
     vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/thermal.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.atoll.so
+
+# Time
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/excalibur/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so
+
+PRODUCT_PACKAGES += \
+    TimeService
