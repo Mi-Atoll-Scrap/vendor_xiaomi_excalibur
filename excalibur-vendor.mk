@@ -2208,3 +2208,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
     vendor/xiaomi/excalibur/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     vendor/xiaomi/excalibur/proprietary/vendor/lib64/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalfeature.so
+
+# Thermal-Hardware
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/thermal.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.atoll.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/thermal.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.atoll.so
