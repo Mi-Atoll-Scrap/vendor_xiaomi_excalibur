@@ -1417,3 +1417,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/lights.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.atoll.so \
     vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl.so \
     vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/lights.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.atoll.so
+
+# Listen
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/excalibur/proprietary/vendor/bin/hw/android.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service \
+    vendor/xiaomi/excalibur/proprietary/vendor/etc/init/android.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service.rc \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/lights.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.atoll.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/lights.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.atoll.so
