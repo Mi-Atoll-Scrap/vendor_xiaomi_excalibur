@@ -559,3 +559,21 @@ dex_import {
 	jars: ["proprietary/product/framework/vendor.qti.voiceprint-V1.0-java.jar"],
 	product_specific: true,
 }
+
+// WFD
+android_app_import {
+	name: "WfdService",
+	owner: "xiaomi",
+	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+dex_import {
+	name: "WfdCommon",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/WfdCommon.jar"],
+}
