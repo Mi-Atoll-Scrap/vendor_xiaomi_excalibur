@@ -26,3 +26,13 @@ dex_import {
 	system_ext_specific: true,
 }
 
+// Atrace
+prebuilt_etc_xml {
+	name: "android.hardware.atrace@1.0-service",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
