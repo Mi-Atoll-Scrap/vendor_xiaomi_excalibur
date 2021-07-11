@@ -36,3 +36,11 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+// Audio
+dex_import {
+	name: "audiosphere",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
+}
+
