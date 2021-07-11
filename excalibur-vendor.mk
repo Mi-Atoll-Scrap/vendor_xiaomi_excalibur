@@ -167,3 +167,56 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/excalibur/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/xiaomi/excalibur/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb
 
+# Audio-Hardware
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/excalibur/proprietary/system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.audiohalext@1.0.so \
+    vendor/xiaomi/excalibur/proprietary/system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.audiohalext@1.0.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/bin/hw/android.hardware.audio.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service \
+    vendor/xiaomi/excalibur/proprietary/vendor/etc/init/android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.rc \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@4.0-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@6.0-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@2.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@4.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@5.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@6.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@5.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/audio.primary.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.atoll.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.audiohalext@1.0.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@2.0-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@4.0-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@6.0-util.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@4.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@5.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@6.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.audio@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@5.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/android.hardware.audio@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@6.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/audio.primary.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.atoll.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.audiohalext@1.0.so
+
