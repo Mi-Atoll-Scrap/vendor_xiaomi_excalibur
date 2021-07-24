@@ -410,3 +410,20 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.iwlan-V1.0-java \
     vendor.qti.hardware.data.qmi-V1.0-java
 
+# CVP
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/excalibur/proprietary/system_ext/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so \
+    vendor/xiaomi/excalibur/proprietary/system_ext/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.cvp@1.0.so \
+    vendor/xiaomi/excalibur/proprietary/system_ext/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so \
+    vendor/xiaomi/excalibur/proprietary/system_ext/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.cvp@1.0.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/libcvp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_common.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/libcvp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_stub.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvpcpuRev_skel.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cvp@1.0.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/libcvp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_common.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/libcvp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_stub.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvpcpuRev_skel.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cvp@1.0.so
+
