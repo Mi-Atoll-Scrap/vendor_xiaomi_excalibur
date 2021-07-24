@@ -1470,3 +1470,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency-V1.0-java \
     vendor.qti.latency-V2.0-java
 
+# Lights
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/excalibur/proprietary/vendor/bin/hw/android.hardware.lights-service.qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.qti \
+    vendor/xiaomi/excalibur/proprietary/vendor/etc/init/android.hardware.lights-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.lights-qti.rc \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/lights.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.atoll.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/lights.atoll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.atoll.so
+
+PRODUCT_PACKAGES += \
+    android.hardware.lights-qti
+
