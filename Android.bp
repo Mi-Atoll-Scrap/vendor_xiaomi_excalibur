@@ -417,3 +417,10 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+dex_import {
+	name: "com.nxp.nfc",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.nxp.nfc.jar"],
+	system_ext_specific: true,
+}
+
