@@ -1050,3 +1050,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/excalibur/proprietary/vendor/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml \
     vendor/xiaomi/excalibur/proprietary/vendor/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml
 
+# ESE-Powermanager
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/excalibur/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
+    vendor/xiaomi/excalibur/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.1-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.1.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
+    vendor/xiaomi/excalibur/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.1.so
+
